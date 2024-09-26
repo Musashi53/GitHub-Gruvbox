@@ -45,7 +45,7 @@
     --color-accent-bright: var(--color-ansi-cyan-bright) !important;
     
     /*=== === === Background Colors === === ===*/
-    --bgColor-default:            var(--color-bg0)              !important;
+    --bgColor-default:            var(--color-bg0)             !important;
     --bgColor-muted:              var(--color-bg0)             !important;
     --bgColor-inset:              var(--color-bg1)             !important;
     --bgColor-emphasis:           var(--color-bg3)             !important;
@@ -53,20 +53,20 @@
     --bgColor-white:              var(--color-fg)              !important;
     --bgColor-black:              var(--color-bg0)             !important;
     --bgColor-disabled:           var(--color-ansi-gray)       !important;
-    --bgColor-transparent:        #00000000                  !important;
+    --bgColor-transparent:        #00000000                    !important;
     --bgColor-neutral-muted:      var(--color-fg2)             !important;
     --bgColor-neutral-emphasis:   var(--color-ansi-gray)       !important;
-    --bgColor-accent-muted:       #4184e41a                  !important;
+    --bgColor-accent-muted:       #4184e41a                    !important;
     --bgColor-accent-emphasis:    var(--color-accent)          !important;
-    --bgColor-success-muted:      #46954a26                  !important;
+    --bgColor-success-muted:      #46954a26                    !important;
     --bgColor-success-emphasis:   var(--color-ansi-cyan)       !important;
-    --bgColor-attention-muted:    #ae7c1426                  !important;
+    --bgColor-attention-muted:    #ae7c1426                    !important;
     --bgColor-attention-emphasis: var(--color-ansi-yellow)     !important;
-    --bgColor-severe-muted:       #cc6b2c1a                  !important;
+    --bgColor-severe-muted:       #cc6b2c1a                    !important;
     --bgColor-severe-emphasis:    var(--color-ansi-orange)     !important;
-    --bgColor-danger-muted:       #e5534b1a                  !important;
+    --bgColor-danger-muted:       #e5534b1a                    !important;
     --bgColor-danger-emphasis:    var(--color-ansi-red)        !important;
-    --bgColor-open-muted:         var(--color-bg2-default)     !important;
+    --bgColor-open-muted:         var(--color-bg2)             !important;
     --bgColor-open-emphasis:      var(--color-ansi-blue)       !important;
     --bgColor-closed-muted:       var(--color-bg2)             !important;
     --bgColor-closed-emphasis:    var(--color-ansi-red-bright) !important;
@@ -74,7 +74,7 @@
     --bgColor-done-emphasis:      var(--color-accent)          !important;
     --bgColor-upsell-muted:       var(--color-bg2)             !important;
     --bgColor-upsell-emphasis:    var(--color-accent)          !important;
-    --bgColor-sponsors-muted:     #c961981a                  !important;
+    --bgColor-sponsors-muted:     #c961981a                    !important;
     --bgColor-sponsors-emphasis:  var(--color-ansi-magenta-bright) !important;
     
     /*=== === === Foreground Colors === === ===*/
@@ -86,7 +86,7 @@
     --fgColor-disabled:   var(--color-ansi-gray)       !important;
     --fgColor-link:       var(--color-ansi-cyan)       !important;
     --fgColor-neutral:    var(--color-ansi-gray)       !important;
-    --fgColor-accent:     var(--color-accent)    !important;
+    --fgColor-accent:     var(--color-accent)          !important;
     --fgColor-success:    var(--color-ansi-green)      !important;
     --fgColor-attention:  var(--color-ansi-yellow)     !important;
     --fgColor-severe:     var(--color-ansi-orange)     !important;
@@ -117,10 +117,10 @@
 
     --color-calendar-graph-day-bg:        var(--color-bg0)     !important;
     --color-calendar-graph-day-border:    transparent          !important;
-    --color-calendar-graph-day-L1-bg:     hsl(122, 21%, 27%) !important;
-    --color-calendar-graph-day-L2-bg:     hsl(122, 20%, 35%) !important;
-    --color-calendar-graph-day-L3-bg:     hsl(123, 21%, 43%) !important;
-    --color-calendar-graph-day-L4-bg:     hsl(122, 21%, 51%) !important;
+    --color-calendar-graph-day-L1-bg:     hsl(122, 21%, 27%)   !important;
+    --color-calendar-graph-day-L2-bg:     hsl(122, 20%, 35%)   !important;
+    --color-calendar-graph-day-L3-bg:     hsl(123, 21%, 43%)   !important;
+    --color-calendar-graph-day-L4-bg:     hsl(122, 21%, 51%)   !important;
     --color-calendar-graph-day-L1-border: transparent          !important;
     --color-calendar-graph-day-L2-border: transparent          !important;
     --color-calendar-graph-day-L3-border: transparent          !important;
@@ -133,23 +133,64 @@
     --button-default-bgColor-active:       hsl(22, 7%, 29%)          !important;
     --button-default-bgColor-selected:     hsl(43, 6%, 23%)          !important;
     --button-default-bgColor-disabled:     #373e47b3                 !important;
-    --button-default-borderColor-rest:     var(--color-bg3)            !important;
+    --button-default-borderColor-rest:     var(--color-bg3)          !important;
     --button-default-borderColor-hover:    hsl(43, 18%, 59%)         !important;
     --button-default-borderColor-active:   hsl(44, 12%, 37%)         !important;
     --button-default-borderColor-disabled: hsla(216, 4%, 25%, 0.702) !important;
     --button-default-shadow-resting:       0px 0px 0px 0px #000000   !important;
     
-    --button-primary-fgColor-rest:         var(--color-fg)             !important;
+    --button-primary-fgColor-rest:         var(--color-fg)           !important;
     --button-primary-fgColor-disabled:     hsla(39, 24%, 66%, 0.502) !important;
-    --button-primary-iconColor-rest:       var(--color-fg)             !important;
+    --button-primary-iconColor-rest:       var(--color-fg)           !important;
     --button-primary-bgColor-rest:         hsl(61, 36%, 48%)         !important;
-    --button-primary-bgColor-hover:        hsl(61, 43%, 50%) !important;
-    --button-primary-bgColor-active:       hsl(61, 36%, 48%) !important;
+    --button-primary-bgColor-hover:        hsl(61, 43%, 50%)         !important;
+    --button-primary-bgColor-active:       hsl(61, 36%, 48%)         !important;
     --button-primary-bgColor-disabled:     hsla(61, 36%, 48%, 0.6)   !important;
-    --button-primary-borderColor-rest:     hsl(61, 36%, 48%)          !important;
+    --button-primary-borderColor-rest:     hsl(61, 36%, 48%)         !important;
     --button-primary-borderColor-hover:    hsla(39, 24%, 66%, 0.102) !important;
-    --button-primary-borderColor-active:   hsla(39, 24%, 66%, 0.102)        !important;
+    --button-primary-borderColor-active:   hsla(39, 24%, 66%, 0.102) !important;
     --button-primary-borderColor-disabled: hsla(39, 24%, 66%, 0.102) !important;
-    --button-primary-shadow-selected:      0 0 transparent             !important;
+    --button-primary-shadow-selected:      0 0 transparent           !important;
+
+    --button-invisible-fgColor-rest:         var(--color-fg)   !important;
+    --button-invisible-fgColor-hover:        var(--color-fg)   !important;
+    --button-invisible-fgColor-disabled:     var(--color-fg3)  !important;
+    --button-invisible-iconColor-rest:       var(--color-fg)   !important;
+    --button-invisible-iconColor-hover:      var(--color-fg)   !important;
+    --button-invisible-iconColor-disabled:   var(--color-fg3)  !important;
+    --button-invisible-bgColor-rest:         #00000000         !important;
+    --button-invisible-bgColor-hover:        hsl(44, 10%, 37%) !important;
+    --button-invisible-bgColor-active:       hsl(22, 7%, 29%)  !important;
+    --button-invisible-bgColor-disabled:     #373e47b3         !important;
+    --button-invisible-borderColor-rest:     #00000000         !important;
+    --button-invisible-borderColor-hover:    #00000000         !important;
+    --button-invisible-borderColor-disabled: var(--color-bg3)  !important;
+
+    --button-outline-fgColor-rest:         var(--color-ansi-cyan) !important;
+    --button-outline-fgColor-hover:        var(--color-ansi-cyan) !important;
+    --button-outline-fgColor-active:       var(--color-fg)        !important;
+    --button-outline-fgColor-disabled:     var(--color-fg3)       !important;
+    --button-outline-bgColor-rest:         var(--color-bg2)       !important;
+    --button-outline-bgColor-hover:        var(--color-bg3)       !important;
+    --button-outline-bgColor-active:       var(--color-bg3)       !important;
+    --button-outline-bgColor-disabled:     var(--color-bg)        !important;
+    --button-outline-borderColor-hover:    var(--color-bg2)       !important;
+    --button-outline-borderColor-selected: var(--color-bg3)       !important;
+    --button-outline-shadow-selected:      0 0 transparent        !important;
+
+    --button-danger-fgColor-rest:       var(--color-ansi-red-bright) !important;
+    --button-danger-fgColor-hover:      var(--color-fg)              !important;
+    --button-danger-fgColor-active:     var(--color-fg)              !important;
+    --button-danger-fgColor-disabled:   hsla(6, 96%, 59%, 0.502)     !important;
+    --button-danger-iconColor-rest:     var(--color-ansi-red)        !important;
+    --button-danger-iconColor-hover:    var(--color-fg)              !important;
+    --button-danger-bgColor-rest:       var(--color-ansi-red)        !important;
+    --button-danger-bgColor-hover:      var(--color-ansi-red)        !important;
+    --button-danger-bgColor-active:     var(--color-ansi-red-bright) !important;
+    --button-danger-bgColor-disabled:   #373e47b3                    !important;
+    --button-danger-borderColor-rest:   #444c56                      !important;
+    --button-danger-borderColor-hover:  var(--color-fg-default)      !important;
+    --button-danger-borderColor-active: var(--color-fg-default)      !important;
+    --button-danger-shadow-selected:    0 0 transparent              !important;
   }
 }
