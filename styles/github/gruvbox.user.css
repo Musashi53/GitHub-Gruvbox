@@ -10,9 +10,6 @@
 
 @-moz-document url-prefix("https://github.com/"), url-prefix("https://gist.github.com") {
   :root {
-    --accent: #a5a64e;
-    --bright_accent: #b4b649;
-
     --color-ansi-black: var(--black) !important;
     --color-ansi-white: var(--white) !important;
     --color-ansi-gray: var(--gray) !important;
@@ -85,20 +82,20 @@
     --avatarStack-fade-bgColor-muted: #535046 !important;
 
     /*=== === === Calendar Colors === === ===*/
-    --color-calendar-halloween-graph-day-L1-bg: #616239 !important;
-    --color-calendar-halloween-graph-day-L2-bg: #878841 !important;
+    --color-calendar-halloween-graph-day-L1-bg: var(--darkness_accent) !important;
+    --color-calendar-halloween-graph-day-L2-bg: var(--dark_accent) !important;
     --color-calendar-halloween-graph-day-L3-bg: var(--accent) !important;
     --color-calendar-halloween-graph-day-L4-bg: var(--bright_accent) !important;
 
-    --color-calendar-winter-graph-day-L1-bg: #616239 !important;
-    --color-calendar-winter-graph-day-L2-bg: #878841 !important;
+    --color-calendar-winter-graph-day-L1-bg: var(--darkness_accent) !important;
+    --color-calendar-winter-graph-day-L2-bg: var(--dark_accent) !important;
     --color-calendar-winter-graph-day-L3-bg: var(--accent) !important;
     --color-calendar-winter-graph-day-L4-bg: var(--bright_accent) !important;
 
     --color-calendar-graph-day-bg: var(--bg0) !important;
     --color-calendar-graph-day-border: transparent !important;
-    --color-calendar-graph-day-L1-bg: #616239 !important;
-    --color-calendar-graph-day-L2-bg: #878841 !important;
+    --color-calendar-graph-day-L1-bg: var(--darkness_accent) !important;
+    --color-calendar-graph-day-L2-bg: var(--dark_accent) !important;
     --color-calendar-graph-day-L3-bg: var(--accent) !important;
     --color-calendar-graph-day-L4-bg: var(--bright_accent) !important;
     --color-calendar-graph-day-L1-border: transparent !important;
