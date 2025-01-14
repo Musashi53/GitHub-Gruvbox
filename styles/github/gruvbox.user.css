@@ -103,6 +103,35 @@
     --color-calendar-graph-day-L3-border: transparent !important;
     --color-calendar-graph-day-L4-border: transparent !important;
 
+    /*=== === === Border Colors === === ===*/
+    --borderColor-default: var(--color-fg3) !important;
+    --borderColor-muted: #444c56b3;
+    --borderColor-emphasis: #545d68;
+    --borderColor-disabled: #373e47b3;
+    --borderColor-transparent: #00000000;
+    --borderColor-neutral-muted: #636e7b66;
+    --borderColor-neutral-emphasis: #636e7b;
+    --borderColor-accent-muted: #4184e466;
+    --borderColor-accent-emphasis: var(--color-accent-default) !important;
+    --borderColor-success-muted: #46954a66;
+    --borderColor-success-emphasis: var(--color-ansi-cyan) !important;
+    --borderColor-attention-muted: #ae7c1466;
+    --borderColor-attention-emphasis: var(--color-ansi-yellow) !important;
+    --borderColor-severe-muted: #cc6b2c66;
+    --borderColor-severe-emphasis: var(--color-ansi-orange) !important;
+    --borderColor-danger-muted: #e5534b66;
+    --borderColor-danger-emphasis: var(--color-ansi-red) !important;
+    --borderColor-open-muted: var(--color-ansi-blue);
+    --borderColor-open-emphasis: var(--color-ansi-blue) !important;
+    --borderColor-closed-muted: var(--color-ansi-red-bright) !important;
+    --borderColor-closed-emphasis: var(--color-ansi-red-bright) !important;
+    --borderColor-done-muted: var(--color-accent) !important;
+    --borderColor-done-emphasis: var(--color-accent) !important;
+    --borderColor-upsell-muted: var(--color-accent) !important;
+    --borderColor-upsell-emphasis: var(--color-accent) !important;
+    --borderColor-sponsors-muted: var(--color-accent-bright) !important;
+    --borderColor-sponsors-emphasis: var(--color-accent-bright) !important;
+
     /*=== === === Buttons Colors === === ===*/
     --button-default-fgColor-rest: var(--fg2) !important;
     --button-default-bgColor-rest: #535046 !important;
@@ -170,6 +199,26 @@
     --button-danger-borderColor-active: var(--fg0) !important;
     --button-danger-shadow-selected: 0 0 transparent !important;
 
+    --button-inactive-fgColor: var(--color-fg-default) !important;
+    --button-inactive-bgColor: var(--color-bg3-default) !important;
+    --button-star-iconColor: var(--color-ansi-yellow) !important;
+
+    --buttonCounter-default-bgColor-rest: #444c56;
+    --buttonCounter-invisible-bgColor-rest: #444c56;
+    --buttonCounter-primary-bgColor-rest: #11341733;
+    --buttonCounter-outline-bgColor-rest: #0f2d5c33;
+    --buttonCounter-outline-bgColor-hover: #0f2d5c33;
+    --buttonCounter-outline-bgColor-disabled: #316dca0d;
+    --buttonCounter-outline-fgColor-rest: #4184e4;
+    --buttonCounter-outline-fgColor-hover: #539bf5;
+    --buttonCounter-outline-fgColor-disabled: #478be680;
+    --buttonCounter-danger-bgColor-hover: #cdd9e533;
+    --buttonCounter-danger-bgColor-disabled: #c93c370d;
+    --buttonCounter-danger-bgColor-rest: #5d0f1233;
+    --buttonCounter-danger-fgColor-rest: #e5534b;
+    --buttonCounter-danger-fgColor-hover: #cdd9e5;
+    --buttonCounter-danger-fgColor-disabled: #e5534b80;
+
     --codeMirror-fgColor: var(--bright_aqua) !important;
     --codeMirror-bgColor: var(--bg0) !important;
     --codeMirror-gutters-bgColor: var(--bg0_h) !important;
@@ -220,5 +269,69 @@
     --color-prettylights-syntax-markup-ignored-bg: var(--bright_blue) !important;
     --color-prettylights-syntax-meta-diff-range: var(--bright_blue) !important;
     --color-prettylights-syntax-sublimelinter-gutter-mark: var(--gray) !important;
+
+    /*==========CONTROL==========*/
+    --control-bgColor-rest: #373e47;
+    --control-bgColor-hover: #3d444e;
+    --control-bgColor-active: #434a54;
+    --control-bgColor-disabled: #373e47b3;
+    --control-bgColor-selected: #2d333b;
+    --control-fgColor-rest: #adbac7;
+    --control-fgColor-placeholder: #545d68;
+    --control-fgColor-disabled: #636e7b;
+    --control-borderColor-rest: #444c56;
+    --control-borderColor-emphasis: #606b77;
+    --control-borderColor-disabled: #373e47b3;
+    --control-borderColor-selected: #cdd9e5;
+    --control-borderColor-success: #347d39;
+    --control-borderColor-danger: #c93c37;
+    --control-borderColor-warning: #966600;
+    --control-iconColor-rest: #778491;
+    --control-transparent-bgColor-rest: #00000000;
+    --control-transparent-bgColor-hover: #909dab1f;
+    --control-transparent-bgColor-active: #909dab33;
+    --control-transparent-bgColor-disabled: #373e47b3;
+    --control-transparent-bgColor-selected: #909dab14;
+    --control-transparent-borderColor-rest: #00000000;
+    --control-transparent-borderColor-hover: #00000000;
+    --control-transparent-borderColor-active: #00000000;
+    --control-danger-fgColor-rest: #e5534b;
+    --control-danger-fgColor-hover: #f47067;
+    --control-danger-bgColor-hover: #e5534b1a;
+    --control-danger-bgColor-active: #e5534b66;
+    --control-checked-bgColor-rest: #316dca;
+    --control-checked-bgColor-hover: #3876d3;
+    --control-checked-bgColor-active: #3f7fdb;
+    --control-checked-bgColor-disabled: #636e7b;
+    --control-checked-fgColor-rest: #cdd9e5;
+    --control-checked-fgColor-disabled: #1c2128;
+    --control-checked-borderColor-rest: #316dca;
+    --control-checked-borderColor-hover: #3876d3;
+    --control-checked-borderColor-active: #3f7fdb;
+    --control-checked-borderColor-disabled: #636e7b;
+
+    --controlTrack-bgColor-rest: #373e47;
+    --controlTrack-bgColor-hover: #3d444e;
+    --controlTrack-bgColor-active: #434a54;
+    --controlTrack-bgColor-disabled: #636e7b;
+    --controlTrack-fgColor-rest: #778491;
+    --controlTrack-fgColor-disabled: #cdd9e5;
+    --controlTrack-borderColor-rest: #00000000;
+    --controlTrack-borderColor-disabled: #636e7b;
+
+    --controlKnob-bgColor-rest: #1c2128;
+    --controlKnob-bgColor-disabled: #373e47b3;
+    --controlKnob-bgColor-checked: #cdd9e5;
+    --controlKnob-borderColor-rest: #606b77;
+    --controlKnob-borderColor-disabled: #373e47b3;
+    --controlKnob-borderColor-checked: #316dca;
+  }
+
+  .iQdLGg .DialogOverflowWrapper {
+    background-color: var(--bg0) !important;
+  }
+
+  .d-flex {
+    background-color: var(--bg0) !important;
   }
 }
